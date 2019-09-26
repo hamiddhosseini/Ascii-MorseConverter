@@ -1,7 +1,7 @@
 #include "common.h"
 int main (int argc, char *argv[]){
     struct node* Root = (struct node*)malloc(sizeof(struct node));
-    char *Address= (char *)malloc(sizeof(char)*5);
+    char *Address= (char *)malloc(sizeof(char)*6);
     Root = generate_tree();
     int Size;
     int result=0;
